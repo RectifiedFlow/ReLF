@@ -9,5 +9,3 @@ A static page, served by GitHub Pages from the root of `main` (`.nojekyll` turns
 - `preview.png`: the social-card image (1200×630).
 
 To preview locally, run `python3 -m http.server` in this directory and open http://localhost:8000.
-
-Adapted from the page by Lizhang Chen at https://l-z-chen.github.io/relf/.

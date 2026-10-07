@@ -204,9 +204,6 @@
     tr.ref td { color: var(--dim); }
     .notes { max-width: 62em; margin: 28px 0 0; padding-left: 1.1em; font-size: 14px; line-height: 1.6; color: var(--dim); }
     .notes li { margin: 0 0 8px; }
-    footer { margin: 64px 0 0; padding-top: 20px; border-top: 1px solid var(--hair-2); font-size: 13px; }
-    footer a { color: var(--muted); text-decoration: none; }
-    footer a:hover { color: var(--ink); }
 
     /* ---- light mode: the same page on a light ground ---- */
     :root[data-theme="light"] {
@@ -419,8 +416,6 @@
       <li>Gen. PPL (under GPT-2 Large, lower is better) and unigram entropy are measured over 1,024 samples of the same checkpoint and sampler. Lowering the temperature lowers both for the autoregressive model, so compare rows at similar entropy. The 16- and 32-step rows are the model before reflow, which is what the replay shows; after two rounds of reflow the paper reports Gen. PPL 19.4 at entropy 5.41 for 16 steps and 16.2 at 5.43 for 32 steps, at the same time per step.</li>
       <li>The AR-Large block is a stored evaluation sample at temperature 0.98; its first token is given and the other 1,023 are generated. Samples of both models were taken in stored order, skipping those with offensive or violent content.</li>
     </ul>
-
-    <footer><a href="https://l-z-chen.github.io/">Lizhang Chen</a></footer>
   </div>
 
   <script>
